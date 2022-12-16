@@ -1,0 +1,36 @@
+:root{
+text-align: center;
+font-family: cursive;
+font-variant: small-caps;
+}
+h1{
+  color: blueviolet;
+  font-size:4.5rem;
+}
+.base{
+  background-color: blue;
+ width:50vw;
+ height: 7.5vh;
+ border-radius: 50% 50% 0 0;
+ z-index: 2;
+}
+.Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.candles{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 0;
+  margin: 1px;
+  position: relative;
+  top: 4rem;
+}
+.candle{
+  height: 20vh;
+  width: 2vw;
+  background-color: aqua;
+  margin:1vw;
+}
