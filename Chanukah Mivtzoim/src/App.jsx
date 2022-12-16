@@ -1,7 +1,7 @@
 
 
 import './App.css'
-
+import Flame from './components/img'
 function App() {
  
 
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
   <h1 className="header">Happy Chanukah</h1>
   <div className="Menorah">
+    <div className="Flame"><Flame/></div>
     <div className="candles Container">
       <span className="candle"></span>
       <span className="candle"></span>
@@ -19,7 +20,7 @@ function App() {
       <span className="candle"></span>
       <span className="candle"></span>
       <span className="candle"></span>
-    </div><br />
+    </div>
     <div className="Container"><div className="base"></div></div>
 
   </div>

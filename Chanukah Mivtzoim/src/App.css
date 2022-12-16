@@ -1,18 +1,14 @@
-:root{
-text-align: center;
-font-family: cursive;
-font-variant: small-caps;
-}
+
 h1{
-  color: blueviolet;
+  color: white;
   font-size:4.5rem;
 }
 .base{
   background-color: blue;
  width:50vw;
- height: 7.5vh;
+ height: 15vh;
  border-radius: 50% 50% 0 0;
- z-index: 2;
+ z-index: 3;
 }
 .Container{
   display: flex;
@@ -27,10 +23,44 @@ h1{
   margin: 1px;
   position: relative;
   top: 4rem;
+  z-index: 2;
 }
 .candle{
   height: 20vh;
   width: 2vw;
   background-color: aqua;
   margin:1vw;
+  border-radius: 5%;
+}
+.shamash{
+  height:30vh;
+}
+h2{
+  font-size: 400%;
+  color:chartreuse
+}
+img{
+  min-height: 3vh;
+  min-width: 3vh;
+  position: relative;
+  top: 10vh;
+  z-index: 1;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+font-family: cursive;
+font-variant: small-caps;
+background-color: #d33f3f;
+opacity: 0.7;
+background: linear-gradient(135deg, #ddda3155 25%, transparent 25%) -24px 0/ 48px 48px, linear-gradient(225deg, #ddda31 25%, transparent 25%) -24px 0/ 48px 48px, linear-gradient(315deg, #ddda3155 25%, transparent 25%) 0px 0/ 48px 48px, linear-gradient(45deg, #ddda31 25%, #d33f3f 25%) 0px 0/ 48px 48px;
+background-repeat: no-repeat;
+background-size: cover;
+overflow-x: hidden !important;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+  margin:0
 }
